@@ -12,11 +12,8 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 # windows does not come with time zone data
 gem 'tzinfo-data', platforms: [:mswin, :mingw]
 
-gem 'rake'
-gem 'puma'
-gem 'rack-contrib'
-gem 'rack-ssl'
-gem 'rack-cache'
+gem 'puma',      '~> 2.7'
+gem 'rake',      '~> 10.1'
 
 # Middleman Gems
 gem 'middleman-sprockets', '>= 4.0.0'
