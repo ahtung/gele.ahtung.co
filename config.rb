@@ -34,10 +34,12 @@ page '/*.txt', layout: false
 #   end
 # end
 
+set :fonts_dir, 'assets/fonts'
+
 activate :relative_assets
 
 # Build-specific configuration
-configure :build do  
+configure :build do
   # Minify CSS on build
   # activate :minify_css
 
