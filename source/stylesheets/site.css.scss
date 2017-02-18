@@ -1,6 +1,11 @@
 @charset "utf-8";
 @import "normalize";
 
+@font-face {
+  font-family: 'Datalegreya';
+  src: url("fonts/Datalegreya-Dot.otf") format("opentype");
+}
+
 body {
   background: #DE5042;
   text-align: center;
@@ -10,22 +15,9 @@ body {
 
 .logo p {
   color: white;
-  font-size: 8em;
-}
-
-h1 {
-  color: rgba(0,0,0,0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
-  font-weight: 400;
-  margin: 0;
-}
-
-.doc {
-  margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
-  font-weight: 300;
+  font-size: 20em;
+  font-family: 'Datalegreya';
+  margin: 12vh 0;
 }
 
 .welcome {
