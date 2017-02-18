@@ -42,3 +42,8 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+activate :google_tag_manager do |gtm|
+  gtm.container_id = 'GTM-W7ZH2LP'
+  gtm.development = true
+end

@@ -82,6 +82,8 @@ GEM
       servolux
       tilt (~> 2.0)
       uglifier (~> 3.0)
+    middleman-google-tag-manager (1.0.0)
+      middleman-core (>= 4.0)
     middleman-sprockets (4.1.0)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
@@ -122,10 +124,14 @@ PLATFORMS
 DEPENDENCIES
   middleman (>= 4.0.0)
   middleman-compass (>= 4.0.0)
+  middleman-google-tag-manager (~> 1)
   middleman-sprockets (>= 4.0.0)
   slim (>= 3.0)
   tzinfo-data
   wdm (~> 0.1.0)
+
+RUBY VERSION
+   ruby 2.3.0p0
 
 BUNDLED WITH
    1.13.6
