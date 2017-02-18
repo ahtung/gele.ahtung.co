@@ -13,6 +13,10 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw]
 
 gem 'rake'
+gem 'puma'
+gem 'rack-contrib'
+gem 'rack-ssl'
+gem 'rack-cache'
 
 # Middleman Gems
 gem 'middleman-sprockets', '>= 4.0.0'
