@@ -34,8 +34,10 @@ page '/*.txt', layout: false
 #   end
 # end
 
+activate :relative_assets
+
 # Build-specific configuration
-configure :build do
+configure :build do  
   # Minify CSS on build
   # activate :minify_css
 

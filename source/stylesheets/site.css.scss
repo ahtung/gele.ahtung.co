@@ -3,14 +3,20 @@
 
 @font-face {
   font-family: 'Datalegreya';
-  src: url("fonts/Datalegreya-Dot.otf") format("opentype");
+  src: url("/fonts/Datalegreya-Dot.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url("/fonts/CaviarDreams.ttf") format('truetype');
 }
 
 body {
   background: #DE5042;
   text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "CaviarDreams", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
+  font-weight: regular;
 }
 
 .logo p {
