@@ -35,6 +35,33 @@ body {
   -webkit-animation-duration: .9s;
 }
 
+.privacy {
+  padding: 16px;
+  color: white;
+
+  ul {
+	  list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    li {
+      list-style-type: none;
+      margin: 0;
+      padding: 8px;
+      border: 0;
+    }
+  }
+
+  a:link, a:visited, a:hover, a:active {
+      color: #2EB187;
+      padding: 0;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+  }
+}
+
 @-webkit-keyframes welcome {
   from {
     -webkit-transform: scale(0);
